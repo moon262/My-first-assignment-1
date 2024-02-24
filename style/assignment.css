@@ -1,0 +1,178 @@
+*{
+    font-family: 'work sans';
+    margin: 0;
+
+}
+.section1{
+    background-image: url(../images/banner/banner1.png);
+    height: 800px;
+   
+    
+}
+.section-about{
+    text-align: right;
+    padding-right: 230px;
+    padding-top: 216px;
+    
+}
+.section-title{
+    font-size: 65px;
+    font-weight: 700;
+    padding-left: 840px;
+
+}
+.section-description{
+    font-size: 16px;
+    padding-left: 876px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.section-btn{
+    padding: 15px 25px;
+    border-radius: 5px;
+    background-color: #F15B22;
+    border: 0;
+    color: #444343;
+    
+}
+/* section2  */
+.section2{
+    display: flex;
+    gap: 80px;
+    
+}
+.section2-photo{
+    padding: 130px 0 130px 200px;
+}
+.my-failures{
+    padding: 370px 310px 0 0;
+}
+.section2-title{
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 25px;
+
+}
+.my-failures-description1{
+    color: #444343;
+    padding-bottom: 16px;
+}
+.my-failures-description{
+    color: #444343;
+    padding-bottom: 8px;
+}
+/* my plan section  */
+.section3-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 130px 0 50px;
+}
+.my-plan-habit{
+    display: flex;
+    gap: 80px;
+    justify-content: space-around;
+    padding: 0 230px;
+    text-align: center;
+}
+.habit-title{
+    font-size: 25px;
+    font-weight: 700;
+    padding: 24px 0 16px;
+}
+.habit-description{
+    font-size: 16px;
+    color: #444343;
+}
+.section4{
+    background-image: linear-gradient(to right ,#005fac, #ffffff1f),url(../images/watch.png);
+    height: 300px;
+    margin: 130px 230px;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+   
+}
+
+.awlays-keep{
+    padding: 59px 617px 59px 64px;
+}
+.call-title{
+    font-size: 40px;
+    font-weight: 700;
+    color: #FFFFFF;
+    padding-bottom: 24px;
+}
+.call-now{
+    color: #005FAC;
+    background-color: #FFFFFF;
+    padding: 20px 36px;
+    border-radius: 5px;
+    border: 0;
+}
+/* footer section  */
+footer{
+    background-color: #151414;
+    height: 577px;
+}
+.footer{
+    display: flex;
+    padding: 130px 230px;
+    gap: 330px;
+    justify-content: space-between;
+}
+.future{
+    text-align: left;
+    color: #FFFFFF;
+}
+.footer-title{
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 16px;
+}
+.footer-description{
+    font-size: 16px;
+    padding-bottom: 24px;
+    padding-right: 150px;
+}
+.email{
+    font-size: 16px;
+    padding-bottom: 16px;
+}
+.phone{
+    font-size: 16px;
+    padding-bottom: 32px;
+}
+.icon{
+    padding-right: 16px;
+}
+.subscribe{
+
+}
+.subscribe-title{
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 30px;
+
+}
+.subscribe, input{
+    height: 64px;
+    width: 325px;
+    border-color: #FFFFFF;
+    border-radius: 5px;
+    background-color: #151414;
+    font-size: 18px;
+}
+.subscribe, input[type="email"]{
+    padding-left: 20px;
+}
+
+.subscribe-btn{
+    padding: 20px 36px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #005facc7;
+    color: #FFFFFF;
+    margin-top: 16px;
+
+}
